@@ -52,7 +52,11 @@ export default function Home() {
       <div className="max-w-4xl w-full">
         <div className="flex justify-end mb-10">
           <button
-            onClick={() => setLang(lang === "en" ? "pt" : "en")}
+            onClick={() => {
+              const newLang = lang === "en" ? "pt" : "en";
+              setLang(newLang);
+              window.history.replaceState(null, "", `?lang=${newLang}`);
+            }}
             className="text-sm px-4 py-2 rounded-xl bg-gray-800 hover:bg-gray-700 transition"
           >
             {lang === "en" ? "PT" : "EN"}
@@ -132,8 +136,9 @@ export default function Home() {
         <section className="border-t border-gray-800 pt-10">
           <p className="text-lg mb-4">{t.cta}</p>
           <div className="flex gap-6 text-blue-400 text-lg">
+            <a href="https://curriculum-zeta-khaki.vercel.app" target="_blank" className="hover:underline">Live CV</a>
             <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
-            <a href="https://github.com/toshiye/curriculum" target="_blank">GitHub</a>
+            <a href="https://github.com/toshiye/curriculum" target="_blank">CV Repository (GitHub)</a>
             <a href="mailto:sasakikenji@gmail.com">Email</a>
             <a href="/experience">Experience</a>
           </div>

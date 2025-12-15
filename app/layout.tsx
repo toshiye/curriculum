@@ -12,16 +12,30 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "Gabriel Sassaki | Fullstack Developer",
-  description: "Fullstack Developer with experience in React, Next.js, Node.js and infrastructure. Open to remote opportunities worldwide.",
-};
+export async function generateMetadata({
+  searchParams,
+}: {
+  searchParams: { lang?: string };
+}): Promise<Metadata> {
+  const lang = searchParams?.lang === "pt" ? "pt" : "en";
+
+  return {
+    title:
+      lang === "pt"
+        ? "Gabriel Sassaki | Desenvolvedor Fullstack"
+        : "Gabriel Sassaki | Fullstack Developer",
+    description:
+      lang === "pt"
+        ? "Desenvolvedor Fullstack com experiência em React, Next.js, Node.js e infraestrutura. Aberto a oportunidades remotas globais."
+        : "Fullstack Developer with experience in React, Next.js, Node.js and infrastructure. Open to remote opportunities worldwide.",
+  };
+}
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
       <body

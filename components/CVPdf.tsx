@@ -54,8 +54,12 @@ export function CVPdf({ lang }: { lang: "pt" | "en" }) {
                 {/* FOOTER */}
                 <Text style={styles.footer}>
                     Open to remote opportunities worldwide • Fluent English •{" "}
+                    <Link src="https://curriculum-zeta-khaki.vercel.app">
+                        Online CV
+                    </Link>{" "}
+                    •{" "}
                     <Link src="https://github.com/toshiye/curriculum">
-                        github.com/toshiye
+                        GitHub
                     </Link>
                 </Text>
             </Page>
