@@ -1,6 +1,8 @@
 import { Document, Page, Text, View } from "@react-pdf/renderer";
 import { styles } from "../app/api/cv/styles";
 import { cvContent } from "../lib/cvContent";
+import { Link } from "@react-pdf/renderer";
+
 
 export function CVPdf({ lang }: { lang: "pt" | "en" }) {
     const c = cvContent[lang];
@@ -51,7 +53,10 @@ export function CVPdf({ lang }: { lang: "pt" | "en" }) {
 
                 {/* FOOTER */}
                 <Text style={styles.footer}>
-                    {c.footer}
+                    Open to remote opportunities worldwide • Fluent English •{" "}
+                    <Link src="https://github.com/toshiye/curriculum">
+                        github.com/seuusuario
+                    </Link>
                 </Text>
             </Page>
         </Document>

@@ -133,7 +133,7 @@ export default function Home() {
           <p className="text-lg mb-4">{t.cta}</p>
           <div className="flex gap-6 text-blue-400 text-lg">
             <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
-            <a href="https://github.com" target="_blank">GitHub</a>
+            <a href="https://github.com/toshiye/curriculum" target="_blank">GitHub</a>
             <a href="mailto:sasakikenji@gmail.com">Email</a>
             <a href="/experience">Experience</a>
           </div>
