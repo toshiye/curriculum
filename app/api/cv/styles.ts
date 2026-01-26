@@ -10,7 +10,7 @@ export const styles = StyleSheet.create({
     },
 
     header: {
-        marginBottom: 28,
+        marginBottom: 24,
     },
 
     name: {
@@ -36,7 +36,7 @@ export const styles = StyleSheet.create({
     },
 
     section: {
-        marginBottom: 18,
+        marginBottom: 14,
     },
 
     sectionTitle: {
@@ -62,15 +62,15 @@ export const styles = StyleSheet.create({
     bullet: {
         fontSize: 10,
         marginLeft: 12,
-        marginBottom: 4,   // ↑ mais espaço
-        lineHeight: 1.5,
+        marginBottom: 3,   // ↑ mais espaço
+        lineHeight: 1.45,
     },
 
     skillsGrid: {
         display: "flex",
         flexDirection: "row",
         flexWrap: "wrap",
-        gap: 8,              // ↑ espaçamento
+        gap: 6,              // ↑ espaçamento
     },
 
     skill: {
@@ -82,9 +82,12 @@ export const styles = StyleSheet.create({
     },
 
     footer: {
-        marginTop: 34,
+        position: "absolute",
+        bottom: 30,
+        left: 40,
+        right: 40,
         fontSize: 9,
         color: "#9CA3AF",
         textAlign: "center",
-    },
+    }
 });

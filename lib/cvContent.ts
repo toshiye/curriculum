@@ -7,8 +7,17 @@ export const cvContent = {
 
     sections: {
       experience: "Experience",
+      education: "Education",
       skills: "Skills",
     },
+
+    education: [
+      {
+        degree: "Bachelor’s Degree in Information Systems",
+        institution: "Universidade do Sul de Minas (UNIS)",
+        period: "2018 – 2022",
+      },
+    ],
 
     experience: [
       {
@@ -66,8 +75,17 @@ export const cvContent = {
 
     sections: {
       experience: "Experiência",
+      education: "Formação",
       skills: "Habilidades",
     },
+
+    education: [
+      {
+        degree: "Bacharelado em Sistemas de Informação",
+        institution: "Universidade do Sul de Minas (UNIS)",
+        period: "2018 – 2022",
+      },
+    ],
 
     experience: [
       {

@@ -39,6 +39,19 @@ export function CVPdf({ lang }: { lang: "pt" | "en" }) {
                     ))}
                 </View>
 
+                <View style={styles.section}>
+                    <Text style={styles.sectionTitle}>{c.sections.education}</Text>
+
+                    {c.education.map((edu) => (
+                        <View key={edu.degree} style={{ marginBottom: 8 }}>
+                            <Text style={styles.itemTitle}>{edu.degree}</Text>
+                            <Text style={styles.itemSubtitle}>
+                                {edu.institution} • {edu.period}
+                            </Text>
+                        </View>
+                    ))}
+                </View>
+
                 {/* SKILLS */}
                 <View style={styles.section}>
                     <Text style={styles.sectionTitle}>{c.sections.skills}</Text>
@@ -52,7 +65,7 @@ export function CVPdf({ lang }: { lang: "pt" | "en" }) {
                 </View>
 
                 {/* FOOTER */}
-                <Text style={styles.footer}>
+                <Text style={styles.footer} fixed>
                     Open to remote opportunities worldwide • Fluent English •{" "}
                     <Link src="https://curriculum-zeta-khaki.vercel.app">
                         Online CV

@@ -95,6 +95,18 @@ export default function Home() {
         </section>
 
         <section className="mb-12">
+          <h2 className="text-3xl font-semibold mb-4">
+            {lang === "en" ? "Education" : "Formação"}
+          </h2>
+
+          <p className="text-gray-300">
+            {lang === "en"
+              ? "Bachelor’s Degree in Information Systems — Universidade do Sul de Minas (UNIS), 2022"
+              : "Bacharelado em Sistemas de Informação — Universidade do Sul de Minas (UNIS), 2022"}
+          </p>
+        </section>
+
+        <section className="mb-12">
           <h2 className="text-3xl font-semibold mb-4">Why Me for Remote Work</h2>
           <ul className="list-disc list-inside text-gray-300 space-y-2">
             {t.why.map((item) => (
