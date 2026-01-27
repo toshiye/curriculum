@@ -149,7 +149,7 @@ export default function Home() {
           <p className="text-lg mb-4">{t.cta}</p>
           <div className="flex gap-6 text-blue-400 text-lg">
             <a href="https://curriculum-zeta-khaki.vercel.app" target="_blank" className="hover:underline">Live CV</a>
-            <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/gabriel-sassaki-78004025/" target="_blank">LinkedIn</a>
             <a href="https://github.com/toshiye/curriculum" target="_blank">CV Repository (GitHub)</a>
             <a href="mailto:sasakikenji@gmail.com">Email</a>
             <a href="/experience">Experience</a>
