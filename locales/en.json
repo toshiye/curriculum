@@ -1,0 +1,81 @@
+{
+  "title": "Gabriel Sassaki",
+  "subtitle": "Software Engineer | Infrastructure, Support & Leadership Background | Remote-Ready",
+  "summary": "Software Engineer with hands-on experience in React, Next.js and Node.js, backed by over 10 years in IT. Strong background in infrastructure, technical support and team leadership. Proven ability to work remotely with international teams, communicate clearly in English and deliver reliable solutions in fast-paced environments.",
+  "educationTitle": "Education",
+  "educationDesc": "Bachelor’s Degree in Information Systems — Universidade do Sul de Minas (UNIS), 2022",
+  "whyTitle": "Why Me for Remote Work",
+  "why": [
+    "Fluent English with real professional usage",
+    "Experience working with international clients and stakeholders",
+    "Strong communication and documentation skills",
+    "Self-managed, reliable and remote-ready"
+  ],
+  "skills": {
+    "frontend": ["React", "Next.js", "JavaScript (ES6+)", "HTML5", "CSS3", "Tailwind CSS"],
+    "backend": ["Node.js", "REST APIs"],
+    "other": ["Git", "Infrastructure & IT Support", "Team Leadership", "Agile / Daily Meetings"]
+  },
+  "downloadCV": "Download CV (PDF)",
+  "viewExperience": "View experience",
+  "cta": "Open to remote opportunities worldwide (USD-based contracts)",
+  "experience": {
+    "title": "Professional Experience",
+    "download": "Download CV (PDF)",
+    "backHome": "← Back to Home",
+    "roles": [
+      {
+        "company": "Almaden Ltd. — Brazil",
+        "positions": [
+          {
+            "role": "Fullstack Developer",
+            "period": "2024 – 2025",
+            "bullets": [
+              "Developed and maintained web applications using React.js, Next.js and Node.js",
+              "Collaborated with distributed teams through daily meetings in English",
+              "Focused on clean code, maintainability and continuous delivery"
+            ]
+          },
+          {
+            "role": "Infrastructure Analyst / Support Supervisor",
+            "period": "2021 – 2024",
+            "bullets": [
+              "Led and supervised a technical support team",
+              "Acted as the main bridge between technical staff and management",
+              "Conducted meetings, reports and escalations in English",
+              "Managed key enterprise clients, including conflict resolution and retention"
+            ]
+          }
+        ]
+      },
+      {
+        "company": "Souza & Cambos — Brazil",
+        "positions": [
+          {
+            "role": "IT Specialist & Developer",
+            "period": "2017 – 2021",
+            "bullets": [
+              "Provided full IT support across multiple departments",
+              "Developed internal systems using PHP, JavaScript, HTML5, CSS3 and Laravel",
+              "Worked with Delphi (Pascal) at an intermediate level"
+            ]
+          }
+        ]
+      },
+      {
+        "company": "Equinix do Brasil",
+        "positions": [
+          {
+            "role": "Bilingual Data Center Operator",
+            "period": "2014 – 2016",
+            "bullets": [
+              "Delivered data center services for national and international clients",
+              "Provided technical support in English via phone, email and on-site",
+              "Worked in mission-critical environments with strict SLAs"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

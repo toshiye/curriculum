@@ -1,0 +1,81 @@
+{
+  "title": "Gabriel Sassaki",
+  "subtitle": "Engenheiro de Software | Infraestrutura, Suporte & Liderança | Pronto para Remoto",
+  "summary": "Engenheiro de Software com experiência prática em React, Next.js e Node.js, aliado a mais de 10 anos de atuação em TI. Forte base em infraestrutura, suporte técnico e liderança de equipes. Experiência comprovada em trabalho remoto, comunicação profissional em inglês e colaboração com times internacionais.",
+  "educationTitle": "Formação",
+  "educationDesc": "Bacharelado em Sistemas de Informação — Universidade do Sul de Minas (UNIS), 2022",
+  "whyTitle": "Por que eu para Trabalho Remoto",
+  "why": [
+    "Inglês fluente com uso profissional real",
+    "Vivência com clientes e times internacionais",
+    "Comunicação clara e documentação eficiente",
+    "Perfil autogerenciável e preparado para trabalho remoto"
+  ],
+  "skills": {
+    "frontend": ["React", "Next.js", "JavaScript (ES6+)", "HTML5", "CSS3", "Tailwind CSS"],
+    "backend": ["Node.js", "APIs REST"],
+    "other": ["Git", "Infraestrutura & Suporte", "Liderança de Equipes", "Agile / Reuniões Diárias"]
+  },
+  "downloadCV": "Baixar CV (PDF)",
+  "viewExperience": "Ver experiência",
+  "cta": "Aberto a oportunidades remotas globais (contratos em dólar)",
+  "experience": {
+    "title": "Experiência Profissional",
+    "download": "Baixar CV (PDF)",
+    "backHome": "← Voltar para Home",
+    "roles": [
+      {
+        "company": "Almaden Ltda. — Brasil",
+        "positions": [
+          {
+            "role": "Desenvolvedor Fullstack",
+            "period": "2024 – 2025",
+            "bullets": [
+              "Desenvolvimento e manutenção de aplicações web utilizando React.js, Next.js e Node.js",
+              "Colaboração com times distribuídos em reuniões diárias em inglês",
+              "Foco em código limpo, manutenibilidade e entregas contínuas"
+            ]
+          },
+          {
+            "role": "Analista de Infraestrutura / Supervisor de Suporte",
+            "period": "2021 – 2024",
+            "bullets": [
+              "Liderança e supervisão de equipe de suporte técnico",
+              "Atuação como elo entre equipe técnica e gestão",
+              "Condução de reuniões, relatórios e escalonamentos em inglês",
+              "Gestão de clientes estratégicos e resolução de conflitos"
+            ]
+          }
+        ]
+      },
+      {
+        "company": "Souza & Cambos — Brasil",
+        "positions": [
+          {
+            "role": "Especialista em TI & Desenvolvedor",
+            "period": "2017 – 2021",
+            "bullets": [
+              "Suporte técnico completo para múltiplos departamentos",
+              "Desenvolvimento de sistemas internos com PHP, JavaScript, HTML5, CSS3 e Laravel",
+              "Atuação intermediária com Delphi (Pascal)"
+            ]
+          }
+        ]
+      },
+      {
+        "company": "Equinix do Brasil",
+        "positions": [
+          {
+            "role": "Operador de Data Center Bilíngue",
+            "period": "2014 – 2016",
+            "bullets": [
+              "Prestação de serviços de data center para clientes nacionais e internacionais",
+              "Suporte técnico em inglês por telefone, e-mail e presencial",
+              "Atuação em ambientes críticos com SLAs rigorosos"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
